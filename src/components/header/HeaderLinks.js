@@ -18,7 +18,7 @@ export const HeaderLinks = () => (
                     <a
                         href="https://www.youtube.com/channel/UCN2MnvMFtlHsDjyP_7esXJQ"
                         target="_blank"
-                        style={{color: '#ddd'}}
+                        style={{color: '#ddd', textDecoration: 'none'}}
                     >
                         <img src={youtubeImage} style={{height: 16}}/> YouTube
                     </a>

@@ -10,7 +10,7 @@ export const HomePage = () => (
         </h4>
         </Row>
         <Row>
-            <Col md={12} lg={3}>
+            <Col md={12} lg={4}>
             <WaterMakerCard/>
             </Col>
         </Row>
