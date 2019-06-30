@@ -7,25 +7,25 @@ import {HomePage} from "./pages/home/HomePage";
 import {ContactPage} from "./pages/contact/ContactPage";
 
 function App() {
-  return (
-      <BrowserRouter>
-    <Container fluid style={{padding: 0}}>
-        <Row>
-            <Col>
-                <Header/>
-            </Col>
-        </Row>
-        <Row>
-            <Col>
-                <Switch>
-                    <Route path="/contact-us" component={ContactPage} />
-                    <Route component={HomePage} />
-                </Switch>
-            </Col>
-        </Row>
-    </Container>
-      </BrowserRouter>
-  );
+    return (
+        <BrowserRouter>
+            <Container fluid style={{padding: 0}}>
+                <Row>
+                    <Col>
+                        <Header/>
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <Switch>
+                            <Route path="/contact-us" component={ContactPage}/>
+                            <Route component={HomePage}/>
+                        </Switch>
+                    </Col>
+                </Row>
+            </Container>
+        </BrowserRouter>
+    );
 }
 
 export default App;
