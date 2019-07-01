@@ -1,6 +1,6 @@
 import React from 'react'
 
-export const ContactPage = () => (
+export default () => (
     <>
         Contact us
     </>
