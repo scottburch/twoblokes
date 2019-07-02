@@ -12,6 +12,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/web.iml" filepath="$PROJECT_DIR$/web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../web-next/web-next.iml" filepath="$PROJECT_DIR$/../web-next/web-next.iml" />
     </modules>
   </component>
   <component name="ProjectRootManager">
