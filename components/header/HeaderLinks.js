@@ -1,6 +1,7 @@
 import React from 'react'
 import {PageLink} from "../PageLink";
 import {Nav, Navbar} from "react-bootstrap";
+import youtubeImage from './youtube.png'
 
 export const HeaderLinks = () => (
     <>
@@ -20,7 +21,7 @@ export const HeaderLinks = () => (
                         rel="noopener noreferrer"
                         style={{color: '#ddd', textDecoration: 'none'}}
                     >
-                        <img src='static/components/header/youtube.png' style={{height: 16}} alt="youtube"/> YouTube
+                        <img src={youtubeImage} style={{height: 16}} alt="youtube"/> YouTube
                     </a>
                 </Nav.Link>
             </Nav>
