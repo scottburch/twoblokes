@@ -8,8 +8,9 @@ import {Vector as VectorSource} from 'ol/source'
 import {Point} from 'ol/geom'
 import boatIcon from './boat-icon.png'
 import {Icon, Style} from 'ol/style.js';
+import {data} from "../../data";
 
-const lonLat = [-123.5, 49.5];
+const lonLat = [data.currentLocation.lon, data.currentLocation.lat];
 
 export default () => {
     const mapRef = createRef();

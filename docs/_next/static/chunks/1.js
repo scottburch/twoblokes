@@ -21,6 +21,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _boat_icon_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./boat-icon.png */ "./components/map/boat-icon.png");
 /* harmony import */ var _boat_icon_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_boat_icon_png__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var ol_style_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ol/style.js */ "./node_modules/ol/style.js");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../data */ "./data.js");
 var _jsxFileName = "/Users/scott/work/two-blokes/web/components/map/Map.js";
 
 
@@ -32,7 +33,8 @@ var _jsxFileName = "/Users/scott/work/two-blokes/web/components/map/Map.js";
 
 
 
-var lonLat = [-123.5, 49.5];
+
+var lonLat = [_data__WEBPACK_IMPORTED_MODULE_9__["data"].currentLocation.lon, _data__WEBPACK_IMPORTED_MODULE_9__["data"].currentLocation.lat];
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   var mapRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["createRef"])();
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
@@ -63,7 +65,7 @@ var lonLat = [-123.5, 49.5];
     ref: mapRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 50
+      lineNumber: 51
     },
     __self: this
   }));
@@ -79,6 +81,25 @@ var lonLat = [-123.5, 49.5];
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wcDADUoaxXaPgAAA6ZJREFUSMftll1MXEUUx3+X+7G79+4H1BbYFW1sISUYmvrgE2n1zaaCxCb1tRBSTB/U1qYiAiYVqA8GfTTiR6u1oFZN7BJL2hiQUjGB2qY1UtrQYoHsbmG7FMLC5e7e8UHZF6kUXUmMPckkMycz8zsn/zkzA/ftv2ZCCGMl85V0QAcGzgf7+/sBylY126qKSrHSNRn/FHq46c3S+Ozs6up66fKl0of9AVFbU7u6GR878kmL0+EkNzeHVQMPDAx0fdTaWmDbNl6fl1AotGlVwHU1rz6ZtWaNBKC7DPr6+o796+CaVw4Gr14ZSo1Nc575ubnHAd5vbZXSDm56o1EKBjuebjv6aaksyyn/nak7GLohGg8dEnuqq0XawfWvN4iOb052eLyelE9VVSajk2RmZUofvPsel3/+pTTt4IbX6lq+DQZZWFhAlmVkWcayLCLhCHKGgqppdHYE30obuGp3BQA93d+/7HQ6F+9mJOl3OW/+OoIv0wdA+/HjhUKIwrSAP/z4KFW7K8TNkRGEEKiqim3bWJaFqqqMj47h0l0I2yZ2O0bZ9h3LZr3sI9FQVy+Z5vwTX7R9hizLSJKEZVkAqX44HMbt8ZJIJNAcDiKR8FaACxcvSo9t2SL+VsaNzU1i+Npw17rsbHTDQIg/7+PQNH7o7UVzOtE9bsbHxr2dpzrF3aD3BN7x1PbghZ/O48vKJPfBwJJgw+3mu9NnsJNJZqdn0HVdemHv3pVpvPOZ8uB4KJw6HIFAoDQnx8/1G9f5sfcc0WiUmelpTNPEtu1UIC7dhaqpqX3spE17W/vVe9a4uLg459ENGwf3vfgSJSUl5Ppzhc/nkx5YuxbD7eb25CSRW7cYujLEjeFhZqansRIJBgcH2VhQgDk3TzweZ2oqxtcnviy4G3jJ6+2dlrfF2OgoU7EYkXCYyWiUiYkJpqIxbDsJwPoNj5Cfn8+mwkKKioro7u4mPhunpr62bHPx5o7lJFwS3Nx8OL/r9JlriqLg8Xpxuw0MtxuHQ8O2BUIIkskkiqKgORwYhkF29jo0hxPDbaBkZGBZCUzTJB6Pc673bEf5szu7dz23q+UvwQBne3qOHNx/oCISCqGoKkKIVFsspUQiQTKRYMGySFhWqrY9Hi956/Pw+wP4AwH8/gB5D+WV73m++uSydbx127ZKoPLAvv3iq89PIEmQXDxMQmDb9h+hSzidTjJ0HVmWUVQN3XChKBrmvEk8PosQNr41Wfb9v/j/y34DmwGJIUpwMvMAAAAASUVORK5CYII="
+
+/***/ }),
+
+/***/ "./data.js":
+/*!*****************!*\
+  !*** ./data.js ***!
+  \*****************/
+/*! exports provided: data */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
+var data = {
+  currentLocation: {
+    lat: 49.4,
+    lon: -123.5
+  }
+};
 
 /***/ }),
 

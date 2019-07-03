@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button, Card} from "react-bootstrap";
 import ctocImage from './ctoc.jpeg'
+import {YouTubeLink} from "../../components/youTubeLink/YouTubeLink";
 
 export const CtoCCard = () => (
     <Card>
@@ -10,7 +11,8 @@ export const CtoCCard = () => (
                 Join us for our C to C adventure
             </Card.Title>
             <Card.Text>
-                We are sailing from BC, Canada to the Caribbean in September.
+                <p>We are sailing from BC, Canada to the Caribbean in September. </p>
+                <p>Follow along on <YouTubeLink style={{color: 'black'}}/></p>
             </Card.Text>
             <Button variant="primary">Join us</Button>
         </Card.Body>
