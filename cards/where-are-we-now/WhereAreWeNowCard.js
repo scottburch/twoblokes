@@ -4,14 +4,15 @@ import dynamic from 'next/dynamic'
 
 export const WhereAreWeNowCard = () => (
     <Card>
-            <div style={{height: 200, width: '100%'}}>
+        <Card.Body>
+            <div style={{width: '100%'}}>
                 <DynamicMap />
             </div>
-        <Card.Body>
 
-            <Card.Title>Where are we now</Card.Title>
+            <Card.Title>Where are we now?</Card.Title>
+
             <Card.Text>
-                Where are we now
+                In Gibsons, BC.  Getting ready.
             </Card.Text>
             <Button variant="primary">Expand</Button>
         </Card.Body>

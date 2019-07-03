@@ -9,8 +9,8 @@ export default () => (
     <MainLayout>
         <Container style={{paddingTop: 5, paddingBottom: 5}}>
             <Row>
-                <CardSlot><CtoCCard/></CardSlot>
-                <CardSlot size={2}><WhereAreWeNowCard/></CardSlot>
+                <CardSlot size={4}><CtoCCard/></CardSlot>
+                <CardSlot size={8}><WhereAreWeNowCard/></CardSlot>
             </Row>
             <Row>
                 <CardSlot><WaterMakerCard/></CardSlot>
@@ -19,6 +19,6 @@ export default () => (
     </MainLayout>
 )
 
-const CardSlot = ({children, size=3}) => (
-    <Col md={12} lg={12/size}>{children}</Col>
+const CardSlot = ({children, size=4}) => (
+    <Col md={12} lg={size}>{children}</Col>
 );

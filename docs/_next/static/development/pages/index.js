@@ -182,7 +182,6 @@ var WhereAreWeNowCard = function WhereAreWeNowCard() {
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      height: 200,
       width: '100%'
     },
     __source: {
@@ -202,17 +201,17 @@ var WhereAreWeNowCard = function WhereAreWeNowCard() {
       lineNumber: 12
     },
     __self: this
-  }, "Where are we now"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Text, {
+  }, "Where are we now?"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Card"].Text, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
-  }, "Where are we now"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+  }, "In Gibsons, BC.  Getting ready."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
     variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, "Expand")));
@@ -28766,6 +28765,7 @@ var _jsxFileName = "/Users/scott/work/two-blokes/web/pages/index.js";
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardSlot, {
+    size: 4,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 12
@@ -28778,6 +28778,7 @@ var _jsxFileName = "/Users/scott/work/two-blokes/web/pages/index.js";
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardSlot, {
+    size: 8,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 13
@@ -28789,16 +28790,22 @@ var _jsxFileName = "/Users/scott/work/two-blokes/web/pages/index.js";
       lineNumber: 13
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardSlot, {
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(CardSlot, {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_cards_water_maker_WaterMakerCard__WEBPACK_IMPORTED_MODULE_3__["WaterMakerCard"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   })))));
@@ -28807,13 +28814,13 @@ var _jsxFileName = "/Users/scott/work/two-blokes/web/pages/index.js";
 var CardSlot = function CardSlot(_ref) {
   var children = _ref.children,
       _ref$size = _ref.size,
-      size = _ref$size === void 0 ? 3 : _ref$size;
+      size = _ref$size === void 0 ? 4 : _ref$size;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Col"], {
     md: 12,
-    lg: 12 / size,
+    lg: size,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 21
+      lineNumber: 23
     },
     __self: this
   }, children);
@@ -28821,7 +28828,7 @@ var CardSlot = function CardSlot(_ref) {
 
 /***/ }),
 
-/***/ 1:
+/***/ 0:
 /*!******************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2FUsers%2Fscott%2Fwork%2Ftwo-blokes%2Fweb%2Fpages%2Findex.js ***!
   \******************************************************************************************************************************/
@@ -28844,5 +28851,5 @@ module.exports = dll_7aff549c98b978433226;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[0,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map
