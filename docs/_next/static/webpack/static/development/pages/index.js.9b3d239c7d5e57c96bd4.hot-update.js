@@ -53,7 +53,7 @@ var CtoCCard = function CtoCCard() {
       lineNumber: 13
     },
     __self: this
-  }, "We are sailing from BC, Canada to the Caribbean in September.  Follow along on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["YouTubeLink"], {
+  }, "We are sailing from BC, Canada to the Caribbean in September.  Follow along on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["PatreonLink"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 14
@@ -154,7 +154,7 @@ var HeaderLinks = function HeaderLinks() {
       lineNumber: 18
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["YouTubeLink"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["PatreonLink"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 19

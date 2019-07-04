@@ -65,7 +65,7 @@ var CtoCCard = function CtoCCard() {
       lineNumber: 15
     },
     __self: this
-  }, "Follow along on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["YouTubeLink"], {
+  }, "Follow along on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["PatreonLink"], {
     style: {
       color: 'black'
     },

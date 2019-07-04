@@ -2,6 +2,7 @@ import React from 'react'
 import {PageLink} from "../PageLink";
 import {Nav, Navbar} from "react-bootstrap";
 import {YouTubeLink} from "../youTubeLink/YouTubeLink";
+import {PatreonLink} from "../patreonLink/PatreonLink";
 
 
 export const HeaderLinks = () => (
@@ -16,7 +17,10 @@ export const HeaderLinks = () => (
                     <PageLink style={{color: '#ddd'}} href="/contact-us">Contact Us</PageLink>
                 </Nav.Link>
                 <Nav.Link as="span">
-<YouTubeLink/>
+                    <YouTubeLink/>
+                </Nav.Link>
+                <Nav.Link as="span">
+                    <PatreonLink />
                 </Nav.Link>
             </Nav>
         </Navbar.Collapse>
