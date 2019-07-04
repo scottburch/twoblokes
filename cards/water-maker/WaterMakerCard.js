@@ -11,7 +11,6 @@ export const WaterMakerCard = () => (
                 The work on the watermaker is continuing.   We should have it running soon.
                 We are using a Fluid Parts water maker which should produce 17gal/hour.
             </Card.Text>
-            <Button variant="primary">See details</Button>
         </Card.Body>
     </Card>
 

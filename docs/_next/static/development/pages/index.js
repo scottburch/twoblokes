@@ -75,10 +75,12 @@ var CtoCCard = function CtoCCard() {
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
+    href: "https://www.youtube.com/channel/UCN2MnvMFtlHsDjyP_7esXJQ",
+    target: "_blank",
     variant: "primary",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, "Join us")));
@@ -148,14 +150,7 @@ var WaterMakerCard = function WaterMakerCard() {
       lineNumber: 10
     },
     __self: this
-  }, "The work on the watermaker is continuing.   We should have it running soon. We are using a Fluid Parts water maker which should produce 17gal/hour."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Button"], {
-    variant: "primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: this
-  }, "See details")));
+  }, "The work on the watermaker is continuing.   We should have it running soon. We are using a Fluid Parts water maker which should produce 17gal/hour.")));
 };
 
 /***/ }),
@@ -230,14 +225,7 @@ var WhereAreWeNowCard = function WhereAreWeNowCard() {
       lineNumber: 14
     },
     __self: this
-  }, "In Gibsons, BC.  Getting ready."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    variant: "primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, "Expand")));
+  }, "In Gibsons, BC.  Getting ready.")));
 };
 var DynamicMap = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(function () {
   return Promise.all(/*! import() */[__webpack_require__.e("styles"), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../../components/map/Map */ "./components/map/Map.js"));

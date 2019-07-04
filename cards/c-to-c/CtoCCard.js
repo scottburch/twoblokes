@@ -14,7 +14,8 @@ export const CtoCCard = () => (
                 <p>We are sailing from BC, Canada to the Caribbean in September. </p>
                 <p>Follow along on <YouTubeLink style={{color: 'black'}}/></p>
             </Card.Text>
-            <Button variant="primary">Join us</Button>
+
+            <Button href="https://www.youtube.com/channel/UCN2MnvMFtlHsDjyP_7esXJQ" target="_blank" variant="primary">Join us</Button>
         </Card.Body>
     </Card>
 

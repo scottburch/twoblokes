@@ -14,7 +14,6 @@ export const WhereAreWeNowCard = () => (
             <Card.Text>
                 In Gibsons, BC.  Getting ready.
             </Card.Text>
-            <Button variant="primary">Expand</Button>
         </Card.Body>
     </Card>
 
