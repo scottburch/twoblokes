@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["3cda"],{GvIb:function(n,t,a){(window.__NEXT_P=window.__NEXT_P||[]).push(["/contact-us",function(){var n=a("taXs");return{page:n.default||n}}])},taXs:function(n,t,a){"use strict";a.r(t);var u=a("q1tI"),c=a.n(u),e=a("3M1/");t.default=function(){return c.a.createElement(e.a,null,"Contact us")}}},[["GvIb","5d41","9da1","ad9d"]]]);

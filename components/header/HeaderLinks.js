@@ -11,10 +11,10 @@ export const HeaderLinks = () => (
         <Navbar.Collapse id="header-menu">
             <Nav className="ml-auto">
                 <Nav.Link as="span">
-                    <PageLink style={{color: '#ddd'}} href="/">Home</PageLink>
+                    <PageLink  href="/">Home</PageLink>
                 </Nav.Link>
                 <Nav.Link as="span">
-                    <PageLink style={{color: '#ddd'}} href="/contact-us">Contact Us</PageLink>
+                    <PageLink href="/contact-us">Contact Us</PageLink>
                 </Nav.Link>
                 <Nav.Link as="span">
                     <YouTubeLink/>

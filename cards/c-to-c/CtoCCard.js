@@ -11,8 +11,10 @@ export const CtoCCard = () => (
                 Join us for our C to C adventure
             </Card.Title>
             <Card.Text>
-                <p>We are sailing from BC, Canada to the Caribbean in September. </p>
-                <p>Follow along on <YouTubeLink style={{color: 'black'}}/></p>
+                We are sailing from BC, Canada to the Caribbean in September.
+            </Card.Text>
+            <Card.Text>
+                Follow along on <YouTubeLink style={{color: 'black'}}/>
             </Card.Text>
 
             <Button href="https://www.youtube.com/channel/UCN2MnvMFtlHsDjyP_7esXJQ" target="_blank" variant="primary">Join us</Button>

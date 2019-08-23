@@ -3,4 +3,4 @@ const withImages = require('next-images')
 
 module.exports = withImages(withCSS({
     /* config options here */
-}))
+}));

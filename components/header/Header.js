@@ -1,12 +1,12 @@
 import React from "react";
 import {Navbar, NavbarBrand} from "react-bootstrap";
 import {HeaderLinks} from "./HeaderLinks";
+import logo from './logo.png'
 
 export const Header = () => (
-    <Navbar bg="dark" variant="dark" collapseOnSelect expand="lg">
+    <Navbar  collapseOnSelect expand="lg">
         <NavbarBrand>
-            <h4>Two Blokes Afloat</h4>
-            <h6>(on a boat)</h6>
+            <img src={logo} height={60} alt="two blokes afloat - logo"/>
         </NavbarBrand>
         <HeaderLinks/>
     </Navbar>
