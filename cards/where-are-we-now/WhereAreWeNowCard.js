@@ -1,6 +1,7 @@
 import React from 'react'
 import {Button, Card} from "react-bootstrap";
 import dynamic from 'next/dynamic'
+import {data} from "../../data";
 
 export const WhereAreWeNowCard = () => (
     <Card>
@@ -12,7 +13,7 @@ export const WhereAreWeNowCard = () => (
             <Card.Title>Where are we now?</Card.Title>
 
             <Card.Text>
-                In Gibsons, BC.  Getting ready.
+                {data.currentLocation.description}
             </Card.Text>
         </Card.Body>
     </Card>

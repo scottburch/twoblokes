@@ -1,6 +1,7 @@
 export const data = {
     currentLocation: {
-        lat: 49.4,
-        lon: -123.5
+        lat: 49.177,
+        lon: -123.935,
+        description: 'In Nanaimo getting supplies'
     }
 };

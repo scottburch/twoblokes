@@ -84,25 +84,6 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7
 
 /***/ }),
 
-/***/ "./data.js":
-/*!*****************!*\
-  !*** ./data.js ***!
-  \*****************/
-/*! exports provided: data */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
-var data = {
-  currentLocation: {
-    lat: 49.4,
-    lon: -123.5
-  }
-};
-
-/***/ }),
-
 /***/ "./node_modules/ol/AssertionError.js":
 /*!*******************************************!*\
   !*** ./node_modules/ol/AssertionError.js ***!
