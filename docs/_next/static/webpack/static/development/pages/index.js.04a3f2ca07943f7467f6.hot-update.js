@@ -12,8 +12,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '49:10.521',
-    lon: '-123:-55.980',
+    lat: '48:59.640',
+    lon: '-123:-47.521',
     description: 'In Nanaimo getting supplies'
   }
 };
@@ -21,4 +21,4 @@ var data = {
 /***/ })
 
 })
-//# sourceMappingURL=index.js.f58fcb0d7b157cc7b5f9.hot-update.js.map
+//# sourceMappingURL=index.js.04a3f2ca07943f7467f6.hot-update.js.map

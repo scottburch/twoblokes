@@ -578,9 +578,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '49:10.521',
-    lon: '-123:-55.980',
-    description: 'In Nanaimo getting supplies'
+    lat: '48:59.640',
+    lon: '-123:-47.521',
+    description: 'In Ladysmith, BC doing some work'
   }
 };
 
