@@ -10,9 +10,20 @@ import boatIcon from './boat-icon.png'
 import {Icon, Style} from 'ol/style.js';
 import {data} from "../../data";
 
-const lonLat = [data.currentLocation.lon, data.currentLocation.lat];
+const latOrLonToDecimal = (latOrLon) => {
+    let [degrees, minutes] = latOrLon.split(':');
+    degrees = parseInt(degrees);
+    minutes = parseFloat(minutes);
+    console.log(degrees, minutes, minutes/60);
+    return degrees + (minutes/60);
+};
 
 export default () => {
+    const lonLat = [
+        latOrLonToDecimal(data.currentLocation.lon),
+        latOrLonToDecimal(data.currentLocation.lat)
+    ];
+
     const mapRef = createRef();
 
     useEffect(() => {
