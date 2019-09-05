@@ -9,19 +9,27 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var ol__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ol */ "./node_modules/ol/index.js");
-/* harmony import */ var ol_source__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ol/source */ "./node_modules/ol/source.js");
-/* harmony import */ var ol_layer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ol/layer */ "./node_modules/ol/layer.js");
-/* harmony import */ var ol_proj__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ol/proj */ "./node_modules/ol/proj.js");
-/* harmony import */ var ol_ol_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ol/ol.css */ "./node_modules/ol/ol.css");
-/* harmony import */ var ol_ol_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(ol_ol_css__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var ol_geom__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ol/geom */ "./node_modules/ol/geom.js");
-/* harmony import */ var _boat_icon_png__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./boat-icon.png */ "./components/map/boat-icon.png");
-/* harmony import */ var _boat_icon_png__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_boat_icon_png__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var ol_style_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ol/style.js */ "./node_modules/ol/style.js");
-/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../data */ "./data.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-float */ "./node_modules/@babel/runtime-corejs2/core-js/parse-float.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/parse-int */ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var ol__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ol */ "./node_modules/ol/index.js");
+/* harmony import */ var ol_source__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ol/source */ "./node_modules/ol/source.js");
+/* harmony import */ var ol_layer__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ol/layer */ "./node_modules/ol/layer.js");
+/* harmony import */ var ol_proj__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ol/proj */ "./node_modules/ol/proj.js");
+/* harmony import */ var ol_ol_css__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ol/ol.css */ "./node_modules/ol/ol.css");
+/* harmony import */ var ol_ol_css__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(ol_ol_css__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var ol_geom__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ol/geom */ "./node_modules/ol/geom.js");
+/* harmony import */ var _boat_icon_png__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./boat-icon.png */ "./components/map/boat-icon.png");
+/* harmony import */ var _boat_icon_png__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(_boat_icon_png__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var ol_style_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ol/style.js */ "./node_modules/ol/style.js");
+/* harmony import */ var _data__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../data */ "./data.js");
+
+
+
 var _jsxFileName = "/Users/scott/work/two-blokes/web/components/map/Map.js";
 
 
@@ -34,38 +42,50 @@ var _jsxFileName = "/Users/scott/work/two-blokes/web/components/map/Map.js";
 
 
 
-var lonLat = [_data__WEBPACK_IMPORTED_MODULE_9__["data"].currentLocation.lon, _data__WEBPACK_IMPORTED_MODULE_9__["data"].currentLocation.lat];
+
+var latOrLonToDecimal = function latOrLonToDecimal(latOrLon) {
+  var _latOrLon$split = latOrLon.split(':'),
+      _latOrLon$split2 = Object(_babel_runtime_corejs2_helpers_esm_slicedToArray__WEBPACK_IMPORTED_MODULE_2__["default"])(_latOrLon$split, 2),
+      degrees = _latOrLon$split2[0],
+      minutes = _latOrLon$split2[1];
+
+  degrees = _babel_runtime_corejs2_core_js_parse_int__WEBPACK_IMPORTED_MODULE_1___default()(degrees);
+  minutes = _babel_runtime_corejs2_core_js_parse_float__WEBPACK_IMPORTED_MODULE_0___default()(minutes);
+  return degrees + minutes / 60;
+};
+
 /* harmony default export */ __webpack_exports__["default"] = (function () {
-  var mapRef = Object(react__WEBPACK_IMPORTED_MODULE_0__["createRef"])();
-  Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(function () {
-    var map = new ol__WEBPACK_IMPORTED_MODULE_1__["Map"]({
+  var lonLat = [latOrLonToDecimal(_data__WEBPACK_IMPORTED_MODULE_12__["data"].currentLocation.lon), latOrLonToDecimal(_data__WEBPACK_IMPORTED_MODULE_12__["data"].currentLocation.lat)];
+  var mapRef = Object(react__WEBPACK_IMPORTED_MODULE_3__["createRef"])();
+  Object(react__WEBPACK_IMPORTED_MODULE_3__["useEffect"])(function () {
+    var map = new ol__WEBPACK_IMPORTED_MODULE_4__["Map"]({
       target: mapRef.current,
-      layers: [new ol_layer__WEBPACK_IMPORTED_MODULE_3__["Tile"]({
-        source: new ol_source__WEBPACK_IMPORTED_MODULE_2__["OSM"]()
-      }), new ol_layer__WEBPACK_IMPORTED_MODULE_3__["Vector"]({
-        source: new ol_source__WEBPACK_IMPORTED_MODULE_2__["Vector"]({
-          features: [new ol__WEBPACK_IMPORTED_MODULE_1__["Feature"]({
+      layers: [new ol_layer__WEBPACK_IMPORTED_MODULE_6__["Tile"]({
+        source: new ol_source__WEBPACK_IMPORTED_MODULE_5__["OSM"]()
+      }), new ol_layer__WEBPACK_IMPORTED_MODULE_6__["Vector"]({
+        source: new ol_source__WEBPACK_IMPORTED_MODULE_5__["Vector"]({
+          features: [new ol__WEBPACK_IMPORTED_MODULE_4__["Feature"]({
             type: 'icon',
-            geometry: new ol_geom__WEBPACK_IMPORTED_MODULE_6__["Point"](Object(ol_proj__WEBPACK_IMPORTED_MODULE_4__["fromLonLat"])(lonLat))
+            geometry: new ol_geom__WEBPACK_IMPORTED_MODULE_9__["Point"](Object(ol_proj__WEBPACK_IMPORTED_MODULE_7__["fromLonLat"])(lonLat))
           })]
         }),
-        style: new ol_style_js__WEBPACK_IMPORTED_MODULE_8__["Style"]({
-          image: new ol_style_js__WEBPACK_IMPORTED_MODULE_8__["Icon"]({
-            src: _boat_icon_png__WEBPACK_IMPORTED_MODULE_7___default.a
+        style: new ol_style_js__WEBPACK_IMPORTED_MODULE_11__["Style"]({
+          image: new ol_style_js__WEBPACK_IMPORTED_MODULE_11__["Icon"]({
+            src: _boat_icon_png__WEBPACK_IMPORTED_MODULE_10___default.a
           })
         })
       })],
-      view: new ol__WEBPACK_IMPORTED_MODULE_1__["View"]({
-        center: Object(ol_proj__WEBPACK_IMPORTED_MODULE_4__["fromLonLat"])(lonLat),
+      view: new ol__WEBPACK_IMPORTED_MODULE_4__["View"]({
+        center: Object(ol_proj__WEBPACK_IMPORTED_MODULE_7__["fromLonLat"])(lonLat),
         zoom: 6
       })
     });
   });
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  return react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_3___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
     ref: mapRef,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 51
+      lineNumber: 61
     },
     __self: this
   }));
@@ -81,6 +101,177 @@ var lonLat = [_data__WEBPACK_IMPORTED_MODULE_9__["data"].currentLocation.lon, _d
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wcDADUoaxXaPgAAA6ZJREFUSMftll1MXEUUx3+X+7G79+4H1BbYFW1sISUYmvrgE2n1zaaCxCb1tRBSTB/U1qYiAiYVqA8GfTTiR6u1oFZN7BJL2hiQUjGB2qY1UtrQYoHsbmG7FMLC5e7e8UHZF6kUXUmMPckkMycz8zsn/zkzA/ftv2ZCCGMl85V0QAcGzgf7+/sBylY126qKSrHSNRn/FHq46c3S+Ozs6up66fKl0of9AVFbU7u6GR878kmL0+EkNzeHVQMPDAx0fdTaWmDbNl6fl1AotGlVwHU1rz6ZtWaNBKC7DPr6+o796+CaVw4Gr14ZSo1Nc575ubnHAd5vbZXSDm56o1EKBjuebjv6aaksyyn/nak7GLohGg8dEnuqq0XawfWvN4iOb052eLyelE9VVSajk2RmZUofvPsel3/+pTTt4IbX6lq+DQZZWFhAlmVkWcayLCLhCHKGgqppdHYE30obuGp3BQA93d+/7HQ6F+9mJOl3OW/+OoIv0wdA+/HjhUKIwrSAP/z4KFW7K8TNkRGEEKiqim3bWJaFqqqMj47h0l0I2yZ2O0bZ9h3LZr3sI9FQVy+Z5vwTX7R9hizLSJKEZVkAqX44HMbt8ZJIJNAcDiKR8FaACxcvSo9t2SL+VsaNzU1i+Npw17rsbHTDQIg/7+PQNH7o7UVzOtE9bsbHxr2dpzrF3aD3BN7x1PbghZ/O48vKJPfBwJJgw+3mu9NnsJNJZqdn0HVdemHv3pVpvPOZ8uB4KJw6HIFAoDQnx8/1G9f5sfcc0WiUmelpTNPEtu1UIC7dhaqpqX3spE17W/vVe9a4uLg459ENGwf3vfgSJSUl5Ppzhc/nkx5YuxbD7eb25CSRW7cYujLEjeFhZqansRIJBgcH2VhQgDk3TzweZ2oqxtcnviy4G3jJ6+2dlrfF2OgoU7EYkXCYyWiUiYkJpqIxbDsJwPoNj5Cfn8+mwkKKioro7u4mPhunpr62bHPx5o7lJFwS3Nx8OL/r9JlriqLg8Xpxuw0MtxuHQ8O2BUIIkskkiqKgORwYhkF29jo0hxPDbaBkZGBZCUzTJB6Pc673bEf5szu7dz23q+UvwQBne3qOHNx/oCISCqGoKkKIVFsspUQiQTKRYMGySFhWqrY9Hi956/Pw+wP4AwH8/gB5D+WV73m++uSydbx127ZKoPLAvv3iq89PIEmQXDxMQmDb9h+hSzidTjJ0HVmWUVQN3XChKBrmvEk8PosQNr41Wfb9v/j/y34DmwGJIUpwMvMAAAAASUVORK5CYII="
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-float.js":
+/*!********************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-float.js ***!
+  \********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/parse-float */ "./node_modules/core-js/library/fn/parse-float.js");
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/core-js/parse-int.js":
+/*!******************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/core-js/parse-int.js ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! core-js/library/fn/parse-int */ "./node_modules/core-js/library/fn/parse-int.js");
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/parse-float.js":
+/*!********************************************************!*\
+  !*** ./node_modules/core-js/library/fn/parse-float.js ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.parse-float */ "./node_modules/core-js/library/modules/es6.parse-float.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").parseFloat;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/fn/parse-int.js":
+/*!******************************************************!*\
+  !*** ./node_modules/core-js/library/fn/parse-int.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(/*! ../modules/es6.parse-int */ "./node_modules/core-js/library/modules/es6.parse-int.js");
+module.exports = __webpack_require__(/*! ../modules/_core */ "./node_modules/core-js/library/modules/_core.js").parseInt;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_parse-float.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_parse-float.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $parseFloat = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").parseFloat;
+var $trim = __webpack_require__(/*! ./_string-trim */ "./node_modules/core-js/library/modules/_string-trim.js").trim;
+
+module.exports = 1 / $parseFloat(__webpack_require__(/*! ./_string-ws */ "./node_modules/core-js/library/modules/_string-ws.js") + '-0') !== -Infinity ? function parseFloat(str) {
+  var string = $trim(String(str), 3);
+  var result = $parseFloat(string);
+  return result === 0 && string.charAt(0) == '-' ? -0 : result;
+} : $parseFloat;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_parse-int.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_parse-int.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $parseInt = __webpack_require__(/*! ./_global */ "./node_modules/core-js/library/modules/_global.js").parseInt;
+var $trim = __webpack_require__(/*! ./_string-trim */ "./node_modules/core-js/library/modules/_string-trim.js").trim;
+var ws = __webpack_require__(/*! ./_string-ws */ "./node_modules/core-js/library/modules/_string-ws.js");
+var hex = /^[-+]?0[xX]/;
+
+module.exports = $parseInt(ws + '08') !== 8 || $parseInt(ws + '0x16') !== 22 ? function parseInt(str, radix) {
+  var string = $trim(String(str), 3);
+  return $parseInt(string, (radix >>> 0) || (hex.test(string) ? 16 : 10));
+} : $parseInt;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-trim.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-trim.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var defined = __webpack_require__(/*! ./_defined */ "./node_modules/core-js/library/modules/_defined.js");
+var fails = __webpack_require__(/*! ./_fails */ "./node_modules/core-js/library/modules/_fails.js");
+var spaces = __webpack_require__(/*! ./_string-ws */ "./node_modules/core-js/library/modules/_string-ws.js");
+var space = '[' + spaces + ']';
+var non = '\u200b\u0085';
+var ltrim = RegExp('^' + space + space + '*');
+var rtrim = RegExp(space + space + '*$');
+
+var exporter = function (KEY, exec, ALIAS) {
+  var exp = {};
+  var FORCE = fails(function () {
+    return !!spaces[KEY]() || non[KEY]() != non;
+  });
+  var fn = exp[KEY] = FORCE ? exec(trim) : spaces[KEY];
+  if (ALIAS) exp[ALIAS] = fn;
+  $export($export.P + $export.F * FORCE, 'String', exp);
+};
+
+// 1 -> String#trimLeft
+// 2 -> String#trimRight
+// 3 -> String#trim
+var trim = exporter.trim = function (string, TYPE) {
+  string = String(defined(string));
+  if (TYPE & 1) string = string.replace(ltrim, '');
+  if (TYPE & 2) string = string.replace(rtrim, '');
+  return string;
+};
+
+module.exports = exporter;
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/_string-ws.js":
+/*!************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/_string-ws.js ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = '\x09\x0A\x0B\x0C\x0D\x20\xA0\u1680\u180E\u2000\u2001\u2002\u2003' +
+  '\u2004\u2005\u2006\u2007\u2008\u2009\u200A\u202F\u205F\u3000\u2028\u2029\uFEFF';
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.parse-float.js":
+/*!*****************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.parse-float.js ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var $parseFloat = __webpack_require__(/*! ./_parse-float */ "./node_modules/core-js/library/modules/_parse-float.js");
+// 18.2.4 parseFloat(string)
+$export($export.G + $export.F * (parseFloat != $parseFloat), { parseFloat: $parseFloat });
+
+
+/***/ }),
+
+/***/ "./node_modules/core-js/library/modules/es6.parse-int.js":
+/*!***************************************************************!*\
+  !*** ./node_modules/core-js/library/modules/es6.parse-int.js ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var $export = __webpack_require__(/*! ./_export */ "./node_modules/core-js/library/modules/_export.js");
+var $parseInt = __webpack_require__(/*! ./_parse-int */ "./node_modules/core-js/library/modules/_parse-int.js");
+// 18.2.5 parseInt(string, radix)
+$export($export.G + $export.F * (parseInt != $parseInt), { parseInt: $parseInt });
+
 
 /***/ }),
 

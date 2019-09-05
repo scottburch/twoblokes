@@ -6,10 +6,10 @@ export const WaterMakerCard = () => (
     <Card>
         <Card.Img src={pumpImage}/>
         <Card.Body>
-            <Card.Title>Watermaker install continuing</Card.Title>
+            <Card.Title>Watermaker install done</Card.Title>
             <Card.Text>
-                The work on the watermaker is continuing.   We should have it running soon.
-                We are using a Fluid Parts water maker which should produce 17gal/hour.
+                The watermaker install is done!!!  Now we can convert sea water into drinking water.
+                We will be doing a video on the watermaker soon.
             </Card.Text>
         </Card.Body>
     </Card>

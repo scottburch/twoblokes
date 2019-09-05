@@ -14,7 +14,6 @@ const latOrLonToDecimal = (latOrLon) => {
     let [degrees, minutes] = latOrLon.split(':');
     degrees = parseInt(degrees);
     minutes = parseFloat(minutes);
-    console.log(degrees, minutes, minutes/60);
     return degrees + (minutes/60);
 };
 

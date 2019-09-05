@@ -138,13 +138,13 @@ var WaterMakerCard = function WaterMakerCard() {
       lineNumber: 9
     },
     __self: this
-  }, "Watermaker install continuing"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Text, {
+  }, "Watermaker install done"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Card"].Text, {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 10
     },
     __self: this
-  }, "The work on the watermaker is continuing.   We should have it running soon. We are using a Fluid Parts water maker which should produce 17gal/hour.")));
+  }, "The watermaker install is done!!!  Now we can convert sea water into drinking water. We will be doing a video on the watermaker soon.")));
 };
 
 /***/ }),
@@ -578,8 +578,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: 49.177,
-    lon: -123.935,
+    lat: '49:10.521',
+    lon: '-123:-55.980',
     description: 'In Nanaimo getting supplies'
   }
 };
