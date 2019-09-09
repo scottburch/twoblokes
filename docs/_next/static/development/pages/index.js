@@ -282,6 +282,63 @@ var PageLink = function PageLink(_ref) {
 
 /***/ }),
 
+/***/ "./components/facebookLink/FacebookLink.js":
+/*!*************************************************!*\
+  !*** ./components/facebookLink/FacebookLink.js ***!
+  \*************************************************/
+/*! exports provided: FacebookLink */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FacebookLink", function() { return FacebookLink; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _facebook_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./facebook.png */ "./components/facebookLink/facebook.png");
+/* harmony import */ var _facebook_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_facebook_png__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/scott/work/two-blokes/web/components/facebookLink/FacebookLink.js";
+
+
+var FacebookLink = function FacebookLink() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.facebook.com/twoblokesafloat/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    style: {
+      textDecoration: 'none'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _facebook_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    style: {
+      height: 17
+    },
+    alt: "facebook",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), " Facebook");
+};
+
+/***/ }),
+
+/***/ "./components/facebookLink/facebook.png":
+/*!**********************************************!*\
+  !*** ./components/facebookLink/facebook.png ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAABcRAAAXEQHKJvM/AAAAB3RJTUUH4wkJFSkzzWdxEQAAAipJREFUOMttk89LVVEQxz9z7nn3mdaRiOiBGxf2Y1VBVBKtLNq0tFqJm/ZlRL2iRQhBXVpU4CbrL4gQCjdBi4KEDEUJMqmFqUU3MNQL+nw/7p0W3Vv3WQOHwwzznR/fmZFSOSIMHAClckQqReAQ0JXq88C7MHCVzD/7JUOk4DbgMjAAbKdZVoGHwO0wcCsZRnLgDmAUOJhHiYABNHvKDHA2DNwMgOQyjwEH8uCWAvTssXq407JWVV7ONnRiITbW8BE4EQbuuwUEuPI/8ODpYtLf7RuA9ZqyUdfk7VyMNXQBd4E+mxI2sKlfdrSJ9nf7RhW+rSQ6Mt3Qqa8x1gBQAI6XytE+CxwF2jcHKDkjAJW6MvS6rkOvqqbVF6z3x8UBPRbY3UQa0N4qurX4m2AR8K3qzm1ColBrkB91Z8ZBU+/jV9uqCj5gWgrCtVNFOX/Mj++8qPJksuH59o+7scCX5uKFgic2TtRkFs+IUVUWllXN33Q1YNEC48BaOkqqDaV3eN3bu8tw70wL1To8GqslT6fqZm4pwfOaFuuNCQMXAY8za6IwMR/L7I8k1ZW5n4lOL8bUYiQtQIGpMHCTJl2kW8DnLIj1wMsx4wlYI3myZoCbACYMHGHgloBzwCcg5l/J+FDgA3AjDNz7Ujkiq4AwcNPASWAEWBRhBagAFRGWFRaA50BfGLhnpXIk2RXnzxiAjuvR/t7htYuqer9S0weDoxuXtlxYPbLpcgH4BUhC2yAekvTRAAAAAElFTkSuQmCC"
+
+/***/ }),
+
 /***/ "./components/header/Header.js":
 /*!*************************************!*\
   !*** ./components/header/Header.js ***!
@@ -355,7 +412,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../youTubeLink/YouTubeLink */ "./components/youTubeLink/YouTubeLink.js");
 /* harmony import */ var _patreonLink_PatreonLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../patreonLink/PatreonLink */ "./components/patreonLink/PatreonLink.js");
 /* harmony import */ var _twitterLink_TwitterLink__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../twitterLink/TwitterLink */ "./components/twitterLink/TwitterLink.js");
+/* harmony import */ var _facebookLink_FacebookLink__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../facebookLink/FacebookLink */ "./components/facebookLink/FacebookLink.js");
+/* harmony import */ var _instagramLink_InstagramLink__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../instagramLink/InstagramLink */ "./components/instagramLink/InstagramLink.js");
 var _jsxFileName = "/Users/scott/work/two-blokes/web/components/header/HeaderLinks.js";
+
+
 
 
 
@@ -367,88 +428,114 @@ var HeaderLinks = function HeaderLinks() {
     "aria-controls": "header-menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Collapse, {
     id: "header-menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
     className: "ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 15
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 16
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PageLink__WEBPACK_IMPORTED_MODULE_1__["PageLink"], {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 17
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 19
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PageLink__WEBPACK_IMPORTED_MODULE_1__["PageLink"], {
     href: "/contact-us",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 20
     },
     __self: this
   }, "Contact Us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_instagramLink_InstagramLink__WEBPACK_IMPORTED_MODULE_7__["InstagramLink"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+    as: "span",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_facebookLink_FacebookLink__WEBPACK_IMPORTED_MODULE_6__["FacebookLink"], {
+    __source: {
+      fileName: _jsxFileName,
       lineNumber: 26
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+    as: "span",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_twitterLink_TwitterLink__WEBPACK_IMPORTED_MODULE_5__["TwitterLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 27
+      lineNumber: 29
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 29
+      lineNumber: 31
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["YouTubeLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 30
+      lineNumber: 32
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 32
+      lineNumber: 34
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_patreonLink_PatreonLink__WEBPACK_IMPORTED_MODULE_4__["PatreonLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 35
     },
     __self: this
   })))));
@@ -464,6 +551,63 @@ var HeaderLinks = function HeaderLinks() {
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/logo-c8168f839308ded39d7107826356cfbc.png";
+
+/***/ }),
+
+/***/ "./components/instagramLink/InstagramLink.js":
+/*!***************************************************!*\
+  !*** ./components/instagramLink/InstagramLink.js ***!
+  \***************************************************/
+/*! exports provided: InstagramLink */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "InstagramLink", function() { return InstagramLink; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _instagram_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./instagram.png */ "./components/instagramLink/instagram.png");
+/* harmony import */ var _instagram_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_instagram_png__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/scott/work/two-blokes/web/components/instagramLink/InstagramLink.js";
+
+
+var InstagramLink = function InstagramLink() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://www.instagram.com/_twoblokesafloat/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    style: {
+      textDecoration: 'none'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _instagram_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    style: {
+      height: 17
+    },
+    alt: "instagram",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), " Instagram");
+};
+
+/***/ }),
+
+/***/ "./components/instagramLink/instagram.png":
+/*!************************************************!*\
+  !*** ./components/instagramLink/instagram.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAArEAAAKxAFmbYLUAAAAB3RJTUUH4wkJFTYMtltSsgAAAw1JREFUOMtVzDlvHGUAgOH3O+bay2s7XpzEQbHDrhwQNooAuTESCJAQ0CVNfgBCCNEheqCiQBRQ0dEgaFBcBhBCxBF3RIINRo5NHHwkjo94d2Z3Zr6Dgor6kR7hnPNrawd8cWmJzc0j8B4Ah8AKgREChwDxHwkBp040uPDyNJ2pYcTG6j3/4btfEnpHJAVhEqBChRcSIwSFlAyUpC8UmfFkA4OxDjy8/eY8+vvPfmU8y0i04IF2izNPnqY+nICQeMAJcFJQIrhzP+fH33dZWd+nnzsuXV5F25UtxrOcsU6LmZceZffqTdaub2GsxXgolaCMAhipMjk3yflnJ1m4bPltdZ/bW0fo4cM+KiuZ7LTo/3yLnY8XwUNycohkZgKjBPt/7xE1YiojFXrr93hsqsnO+h7OWXSjO0B7S7Wm6V1bp+a6NOY6nHj1OVye4wHRrHHnmxX2F67jRqoMTY8zLiypKdFJkKGUQYeGQKXUTgkefONp0mvLHHx9A2s09cc7nHzxCbZf+5TKuQni9hhDeY7WCh3FGVqXaJ0T6C7N2VEkOdl3i3B3D0xIb7FL85lHaHXGsL2CsLDU8xKpC3QcpyhZoFRBGGYgDVI5Qn0fEXexLsYHEbqiCGSK8iFRaalmJSJQyCjqEcVdtCqIkwx96yo6huYL8yTDlrhRcuzCPEJCsbxEULEo46hkJUlu0GHQIwgydFggRiW+2WWw8AHJxbeI5+YAgcsNd9/7iIAjgsigpCEelNhBgA6TFFk3+LCPPNtGZL/g7QbZJ68jjz0MByX9n/6ArEIQN6icHqEsc3S/T5SHaNkK8HWLS/8iOHeeUB3hDjfweYE/TPEyJ2pPIPMa8fFpopmH6H7+A+Q9ItdAq7PT2PQGvtzAbX6LnpjFj0/jrYXS4QcldA1BKrA+ofvVFQZLN5GEVM+MIuz2sh8svoOKHLJaQdZGIajjBgbXL3C9HL/Tx/2T079dkO54sl6NUrWYev8VhPfOu70/cdtXEG4XGUq8MbiswKaD/wXFUULuR+B4m8bzT1GdneJfAeV7zQKWuk8AAAAASUVORK5CYII="
 
 /***/ }),
 
