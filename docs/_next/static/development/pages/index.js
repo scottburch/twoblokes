@@ -354,7 +354,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_bootstrap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-bootstrap */ "./node_modules/react-bootstrap/es/index.js");
 /* harmony import */ var _youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../youTubeLink/YouTubeLink */ "./components/youTubeLink/YouTubeLink.js");
 /* harmony import */ var _patreonLink_PatreonLink__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../patreonLink/PatreonLink */ "./components/patreonLink/PatreonLink.js");
+/* harmony import */ var _twitterLink_TwitterLink__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../twitterLink/TwitterLink */ "./components/twitterLink/TwitterLink.js");
 var _jsxFileName = "/Users/scott/work/two-blokes/web/components/header/HeaderLinks.js";
+
 
 
 
@@ -365,75 +367,88 @@ var HeaderLinks = function HeaderLinks() {
     "aria-controls": "header-menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 11
     },
     __self: this
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Navbar"].Collapse, {
     id: "header-menu",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 12
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"], {
     className: "ml-auto",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 13
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PageLink__WEBPACK_IMPORTED_MODULE_1__["PageLink"], {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
     },
     __self: this
   }, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 17
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_PageLink__WEBPACK_IMPORTED_MODULE_1__["PageLink"], {
     href: "/contact-us",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
   }, "Contact Us")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 26
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["YouTubeLink"], {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_twitterLink_TwitterLink__WEBPACK_IMPORTED_MODULE_5__["TwitterLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20
+      lineNumber: 27
     },
     __self: this
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
     as: "span",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 29
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["YouTubeLink"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Nav"].Link, {
+    as: "span",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_patreonLink_PatreonLink__WEBPACK_IMPORTED_MODULE_4__["PatreonLink"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 23
+      lineNumber: 33
     },
     __self: this
   })))));
@@ -509,6 +524,63 @@ module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAiCAYAAAA6
 
 /***/ }),
 
+/***/ "./components/twitterLink/TwitterLink.js":
+/*!***********************************************!*\
+  !*** ./components/twitterLink/TwitterLink.js ***!
+  \***********************************************/
+/*! exports provided: TwitterLink */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TwitterLink", function() { return TwitterLink; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _twitter_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./twitter.png */ "./components/twitterLink/twitter.png");
+/* harmony import */ var _twitter_png__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_twitter_png__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/Users/scott/work/two-blokes/web/components/twitterLink/TwitterLink.js";
+
+
+var TwitterLink = function TwitterLink() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+    href: "https://twitter.com/TwoBlokesAfloat",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    style: {
+      textDecoration: 'none'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: _twitter_png__WEBPACK_IMPORTED_MODULE_1___default.a,
+    style: {
+      height: 16
+    },
+    alt: "twitter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }), " Twitter");
+};
+
+/***/ }),
+
+/***/ "./components/twitterLink/twitter.png":
+/*!********************************************!*\
+  !*** ./components/twitterLink/twitter.png ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAQCAYAAAAbBi9cAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH4wkJBQ4aSTb4aAAAAhxJREFUOMuVlE1PU0EUhp8zM72l3GLRQigFCuVDNySiiStdGBdqgpFg1I1/wLV/wIWJf8If4NKdiYkrdpCw0ERc0BgB6QKEci0Xb9t777jgK1eK4LubczLPnDnnnRFrreWc+vk7JgghnxEyRhI5A1DxIoayirSWtoDtwPJ6MWBhI8JvwYArPBgxXOvVLNUsj8oGU92NebnQ5PGYYaZsUJKEhbHl1WLAh9WQ3dZ+bDOwrPktRroipvKKlbrC7DRjFjdD1vyIH37MzEiKUpc6Aq3WbQJyqK3A4jUjJi4IPRnBFDoVRVdR8WLeLLWoeJZbBc1oTtHtCF9rEXth+571dgg3+gyFToW54AiTFxVVP2anYXn3rcX77yFTPYqxbkUQnj6L3owwO5rab/a6b8lnhLQW9g42NWLL/EbE/Eb0zyk6SjAHXVB9GWGuGlFrnNsFAAjQ7x6vVYcRXlx1GMzKf4H6XeF6jzkGAdwdMjwZT1F01cFZZ2u4S3GvpJOglBZcIzQiC5x9xUtp4XZRM5jVSWcD3Bkw+C3LXDWk4sV4zdNB90ua2XIqETty3nhOMT1suNKtT7j7UFpgetjw7LJDwVXJt/araVmtx6zsxnzZjvm01X6CRVe4WTA8n3SYyKkTeVP1Y94uN/m4HrHTsBiBnAMioEVIayhlFU/HUzwsGxzVvlo5/EZqgeXzdsSyF1FvQloL/Z3CZF63reBv/QGODMBtsT6KEgAAAABJRU5ErkJggg=="
+
+/***/ }),
+
 /***/ "./components/youTubeLink/YouTubeLink.js":
 /*!***********************************************!*\
   !*** ./components/youTubeLink/YouTubeLink.js ***!
@@ -578,9 +650,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '48:59.640',
-    lon: '-123:-47.521',
-    description: 'In Ladysmith, BC doing some work'
+    lat: '48:41.249',
+    lon: '-123:-28.791',
+    description: 'In Deep Cove on Vancouver Island for the night'
   }
 };
 
