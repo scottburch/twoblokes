@@ -794,9 +794,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '48:41.249',
-    lon: '-123:-28.791',
-    description: 'In Deep Cove on Vancouver Island for the night'
+    lat: '48:27.192',
+    lon: '-123:-17.162',
+    description: 'Near Victoria waiting on boat registration'
   }
 };
 
