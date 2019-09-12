@@ -794,9 +794,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '48:27.192',
-    lon: '-123:-17.162',
-    description: 'Near Victoria waiting on boat registration'
+    lat: '48:20.512',
+    lon: '-123:-32.297',
+    description: 'Quarantine Cove waiting to enter the USA tomorrow!!'
   }
 };
 
