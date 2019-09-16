@@ -221,7 +221,16 @@ var WhereAreWeNowCard = function WhereAreWeNowCard() {
       lineNumber: 15
     },
     __self: this
-  }, _data__WEBPACK_IMPORTED_MODULE_3__["data"].currentLocation.description)));
+  }, _data__WEBPACK_IMPORTED_MODULE_3__["data"].currentLocation.description, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    style: {
+      fontSize: '.8em'
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, "Updated On: ", _data__WEBPACK_IMPORTED_MODULE_3__["data"].currentLocation.updatedOn))));
 };
 var DynamicMap = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(function () {
   return Promise.all(/*! import() */[__webpack_require__.e("styles"), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../../components/map/Map */ "./components/map/Map.js"));
@@ -794,9 +803,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '48:7.188',
-    lon: '-123:-25.549',
-    description: 'Quarantine Cove waiting to enter the USA tomorrow!!'
+    lat: '48:15.769',
+    lon: '-124:-17.338',
+    description: 'In Callam Bay for the night',
+    updatedOn: 'September 15th'
   }
 };
 

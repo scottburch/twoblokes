@@ -14,6 +14,7 @@ export const WhereAreWeNowCard = () => (
 
             <Card.Text>
                 {data.currentLocation.description}
+                <div style={{fontSize: '.8em'}}>Updated On: {data.currentLocation.updatedOn}</div>
             </Card.Text>
         </Card.Body>
     </Card>
