@@ -1,8 +1,8 @@
 export const data = {
     currentLocation: {
-        lat: '48:15.769',
-        lon: '-124:-17.338',
-        description: 'In Callam Bay for the night',
-        updatedOn: 'September 15th'
+        lat: '48:22.551',
+        lon: '-124:-36.767',
+        description: 'Jumping off from Neah Bay - Headed for San Francisco',
+        updatedOn: 'September 18th'
     }
 };
