@@ -1,8 +1,8 @@
 export const data = {
     currentLocation: {
-        lat: '48:19.761',
-        lon: '-124:-48.545',
-        description: 'Sailing our way out to sea',
-        updatedOn: 'September 18th'
+        lat: '42:44.276',
+        lon: '-124:-30.098',
+        description: 'Stopping at Port Orford to make repairs after getting caught in a gale and large seas',
+        updatedOn: 'September 24th'
     }
 };

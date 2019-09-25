@@ -14,7 +14,7 @@ export const WhereAreWeNowCard = () => (
 
             <Card.Text>
                 {data.currentLocation.description}
-                <div style={{fontSize: '.8em'}}>Updated On: {data.currentLocation.updatedOn}</div>
+                <div style={{fontSize: '.8em', marginTop:20}}>Updated On: {data.currentLocation.updatedOn} (updated as we have internet)</div>
             </Card.Text>
         </Card.Body>
     </Card>
