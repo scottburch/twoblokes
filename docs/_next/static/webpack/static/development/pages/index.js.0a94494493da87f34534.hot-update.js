@@ -12,14 +12,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '48:19.761',
-    lon: '-124:-48.545',
-    description: 'Sailing our way out to sea',
-    updatedOn: 'September 18th'
+    lat: '42:44.276',
+    lon: '-124:-30.098',
+    description: 'Stopping at Port Orford to make repairs after getting caught in a storm',
+    updatedOn: 'September 23rd'
   }
 };
 
 /***/ })
 
 })
-//# sourceMappingURL=index.js.8f70982588485e0a9149.hot-update.js.map
+//# sourceMappingURL=index.js.0a94494493da87f34534.hot-update.js.map

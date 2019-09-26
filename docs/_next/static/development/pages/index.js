@@ -59,25 +59,13 @@ var CtoCCard = function CtoCCard() {
       lineNumber: 16
     },
     __self: this
-  }, "Follow along on ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_youTubeLink_YouTubeLink__WEBPACK_IMPORTED_MODULE_3__["YouTubeLink"], {
-    style: {
-      color: 'black'
-    },
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("strong", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 17
+      lineNumber: 18
     },
     __self: this
-  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Button"], {
-    href: "https://www.youtube.com/channel/UCN2MnvMFtlHsDjyP_7esXJQ",
-    target: "_blank",
-    variant: "primary",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: this
-  }, "Join us")));
+  }, "Follow us at the links in the menu"))));
 };
 
 /***/ }),
@@ -223,14 +211,15 @@ var WhereAreWeNowCard = function WhereAreWeNowCard() {
     __self: this
   }, _data__WEBPACK_IMPORTED_MODULE_3__["data"].currentLocation.description, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     style: {
-      fontSize: '.8em'
+      fontSize: '.8em',
+      marginTop: 20
     },
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }, "Updated On: ", _data__WEBPACK_IMPORTED_MODULE_3__["data"].currentLocation.updatedOn))));
+  }, "Updated On: ", _data__WEBPACK_IMPORTED_MODULE_3__["data"].currentLocation.updatedOn, " (updated as we have internet)"))));
 };
 var DynamicMap = next_dynamic__WEBPACK_IMPORTED_MODULE_2___default()(function () {
   return Promise.all(/*! import() */[__webpack_require__.e("styles"), __webpack_require__.e(1)]).then(__webpack_require__.bind(null, /*! ../../components/map/Map */ "./components/map/Map.js"));
@@ -803,10 +792,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '48:19.761',
-    lon: '-124:-48.545',
-    description: 'Sailing our way out to sea',
-    updatedOn: 'September 18th'
+    lat: '42:44.276',
+    lon: '-124:-30.098',
+    description: 'Making repairs in Port Orford after getting caught in a gale and large seas',
+    updatedOn: 'September 26th'
   }
 };
 
