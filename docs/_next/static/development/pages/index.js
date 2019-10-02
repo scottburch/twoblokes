@@ -792,10 +792,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '42:44.276',
-    lon: '-124:-30.098',
-    description: 'Making repairs in Port Orford after getting caught in a gale and large seas',
-    updatedOn: 'September 26th'
+    lat: '41:8.392',
+    lon: '-124:-31.537',
+    description: 'Sailing in good wind on our way to San Francisco',
+    updatedOn: 'October 1st'
   }
 };
 
