@@ -792,10 +792,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "data", function() { return data; });
 var data = {
   currentLocation: {
-    lat: '41:8.392',
-    lon: '-124:-31.537',
-    description: 'Sailing in good wind on our way to San Francisco',
-    updatedOn: 'October 1st'
+    lat: '39:25.735',
+    lon: '-123:-48.709',
+    description: 'Anchored near Fort Brag for the night.  Winds and waves were coming up more than we wanted to deal with at night',
+    updatedOn: 'October 3rd'
   }
 };
 
