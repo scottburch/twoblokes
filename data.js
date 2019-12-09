@@ -1,8 +1,8 @@
 export const data = {
     currentLocation: {
-        lat: '34:24.521',
-        lon: '-119:-40.468',
-        description: 'Ancored in Santa Barbara.  We will wait out the Santa Anna winds here.',
-        updatedOn: 'October 24th'
+        lat: '32:43.473',
+        lon: '-117:11.128',
+        description: 'In San Diego continuing the refit',
+        updatedOn: 'December 8th'
     }
 };
