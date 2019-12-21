@@ -825,18 +825,36 @@ var _jsxFileName = "/Users/scott/work/two-blokes/web/layouts/MainLayout.js";
 
 
 
+var ga = "\n        <!-- Global site tag (gtag.js) - Google Analytics -->\n        <script>\n            window.dataLayer = window.dataLayer || [];\n            function gtag(){dataLayer.push(arguments);}\n            gtag('js', new Date());\n\n            gtag('config', 'UA-154870658-1');\n        </script>\n";
 var MainLayout = function MainLayout(_ref) {
   var children = _ref.children;
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_4___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 20
     },
     __self: this
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    async: true,
+    src: "https://www.googletagmanager.com/gtag/js?id=UA-154870658-1",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 21
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("script", {
+    dangerouslySetInnerHTML: {
+      __html: ga
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
     },
     __self: this
   }, "Two Blokes Afloat")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Container"], {
@@ -846,37 +864,37 @@ var MainLayout = function MainLayout(_ref) {
     },
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 26
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 27
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 28
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_header_Header__WEBPACK_IMPORTED_MODULE_2__["Header"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 29
     },
     __self: this
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Row"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 32
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_1__["Col"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 33
     },
     __self: this
   }, children))));
