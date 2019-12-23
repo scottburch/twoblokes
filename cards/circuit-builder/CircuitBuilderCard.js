@@ -17,5 +17,4 @@ export const CircuitBuilderCard = () => (
             <Button href="/circuit-builder" target="_blank" variant="primary">Check it out</Button>
         </Card.Body>
     </Card>
-
 );

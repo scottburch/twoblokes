@@ -21,5 +21,4 @@ export const CtoCCard = () => (
             {/*<Button href="https://www.youtube.com/channel/UCN2MnvMFtlHsDjyP_7esXJQ" target="_blank" variant="primary">Join us</Button>*/}
         </Card.Body>
     </Card>
-
 );

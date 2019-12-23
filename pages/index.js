@@ -8,21 +8,30 @@ import {CircuitBuilderCard} from "../cards/circuit-builder/CircuitBuilderCard";
 
 export default () => (
     <MainLayout>
-        <Container style={{paddingTop: 5, paddingBottom: 5}}>
-            <Row>
-                <CardSlot size={4}><CtoCCard/></CardSlot>
-                <CardSlot size={8}><WhereAreWeNowCard/></CardSlot>
-            </Row>
-            <Row>
-                <CardSlot><CircuitBuilderCard/></CardSlot>
-            </Row>
-            <Row>
-                <CardSlot><WaterMakerCard/></CardSlot>
-            </Row>
-        </Container>
+        <table>
+            <tr>
+                <TD width="30%">
+                    <Padding><CtoCCard/></Padding>
+                    <Padding><CircuitBuilderCard/></Padding>
+                    <Padding><WaterMakerCard/></Padding>
+                </TD>
+                <TD width="70%">
+                    <Padding><WhereAreWeNowCard/></Padding>
+                </TD>
+            </tr>
+        </table>
     </MainLayout>
 )
 
-const CardSlot = ({children, size=4}) => (
-    <Col md={12} lg={size}>{children}</Col>
+const TD = ({children, width}) => (
+    <td style={{width, border: 'none', padding: 5}} valign="top">
+        {children}
+    </td>
 );
+
+const Padding = ({children}) => (
+    <div style={{marginBottom: 5}}>
+        {children}
+    </div>
+)
+
