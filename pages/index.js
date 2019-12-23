@@ -4,6 +4,7 @@ import {Container, Row, Col} from "react-bootstrap";
 import {WaterMakerCard} from "../cards/water-maker/WaterMakerCard";
 import {CtoCCard} from "../cards/c-to-c/CtoCCard";
 import {WhereAreWeNowCard} from "../cards/where-are-we-now/WhereAreWeNowCard";
+import {CircuitBuilderCard} from "../cards/circuit-builder/CircuitBuilderCard";
 
 export default () => (
     <MainLayout>
@@ -11,6 +12,9 @@ export default () => (
             <Row>
                 <CardSlot size={4}><CtoCCard/></CardSlot>
                 <CardSlot size={8}><WhereAreWeNowCard/></CardSlot>
+            </Row>
+            <Row>
+                <CardSlot><CircuitBuilderCard/></CardSlot>
             </Row>
             <Row>
                 <CardSlot><WaterMakerCard/></CardSlot>
