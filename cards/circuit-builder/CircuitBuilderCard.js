@@ -14,7 +14,7 @@ export const CircuitBuilderCard = () => (
                 Scott has released a free app to help boaters design electrical systems or document existing ones
             </Card.Text>
 
-            <Button href="/circuit-builder" target="_blank" variant="primary">Check it out</Button>
+            <Button href="https://dorothy.bulldoginfo.com" target="_blank" variant="primary">Check it out</Button>
         </Card.Body>
     </Card>
 );
